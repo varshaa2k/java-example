@@ -1,9 +1,13 @@
 package com.cognizant;
 
+import com.cognizant.model.Person;
+
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		Person person=new Person();
+		person.setName1("varshaa");
+		System.out.println("Hello"+person.getName()+"!");
 	}
 
 }
